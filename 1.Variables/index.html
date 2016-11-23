@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        /*
+        |    Var variable can be redeclared with same name multiple times and it's function scoped.
+        |    If declared outside function it's available to the window scoped.
+        */
+
+        var name = 'Ronju';
+        // console.log(name);
+        // var name = 'Rinku';    // Redeclared and reassigned.
+        // console.log(name);
+
+        function setName(){
+            var name = 'Rinku';
+            console.log(name);
+        }
+
+        setName();            // Logs Rinku
+        console.log(name);    // Logs Ronju
+
+        if(name === 'Ronju') {
+            name = 'Rinku';
+            console.log(`Your name is ${name}!`);
+        }
+
+        console.log(name);    // Logs Rinku.
+
+        /*
+        |    let & const variables are block scoped.
+        |    const can't be reassigned when let can.
+        |    If you need to reassign use let otherwise use const.
+        */
+        let age = 30;
+        const gender = 'Male';
+
+        if(age > 18) {
+            const message = 'You are an adult';
+            console.log(`${message} and you are ${age} old!`);
+        }
+
+        console.log(message);    // Can't access message as it's blocked scoped.
+        console.log(gender);    // Logs Male.
+
+    </script>
+</body>
+</html>
