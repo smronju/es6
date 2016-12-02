@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let &amp; Const</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        /*
+        |    let & const variables are block scoped.
+        |    cons & let can'te be redeclare in same scope.
+        |    const can't be update when let can.
+        |    If you need to reassign use let otherwise use const.
+        */
+        let age = 30;
+        const points = 100;
+
+        console.log(age, points);    // Logs 30, 100
+
+        // let age = 50;             // Can't redeclare here as it's in the same (window) scoped.
+        age = 31;
+        console.log(age);            // Logs 31.
+
+        if(age > 18) {
+            let age = 50;            // Can redeclare here as it's block scoped.
+            console.log(age);        // Logs (50);
+        }
+
+        console.log(age);            // Logs 31
+
+        /*
+        | Same goes for const we can't redeclare or update const value however
+        | we can update const object properties value.
+        */
+
+       // const points = 90;                // Can't redeclare here as it's in the same (window) scoped.
+
+        const person = {
+           name: 'Ronju',
+           age: 30
+        }
+
+        // person = { name: 'Rinku', age: 30 }     // Can't assign
+        person.name = 'Rinku';
+
+        console.log(person);     // Logs { name: 'Rinku', age: 30 }
+
+    </script>
+</body>
+</html>
