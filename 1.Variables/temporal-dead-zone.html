@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temporal Deadzone</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        console.log(name);     // Logs undefined
+        var name = 'Ronju';
+
+
+        /*
+        | For var you can access variable before it is defined. But for const you won't.
+        | As we logs age before it's defined so it throws error. So space between console.log(age)
+        | to before const age = 30 is called temporal dead zone.
+         */
+        console.log(age);    // Logs error of not defined.
+        const age = 30;
+
+    </script>
+</body>
+</html>
