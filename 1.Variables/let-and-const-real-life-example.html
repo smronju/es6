@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let &amp; Const Real Life Example</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        {
+            const name = 'Ronju';
+            console.log(name);    // Logs Ronju
+        }
+
+        console.log(name);    // Logs '' cause name is block scoped.
+
+        /*
+        | If used var it logs i = 11 is because after 1 sec loop is completed and
+        | it just overrides i. But if we use let it prevents redeclaration of i and
+        | it logs the number 1.  to 10 in console.
+        */
+        for (let i = 1; i <= 10; i++) {
+            console.log(i);
+
+            setTimeout(function () {
+                console.log(`The number is: ${i}`);
+            }, 1000);
+        }
+
+    </script>
+</body>
+</html>
