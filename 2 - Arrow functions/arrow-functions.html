@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrow functions</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        const names = ['Ronju', 'Rinku', 'Gazi', 'Shohel', 'Evan'];
+
+        // Regular map function
+        const nickNames1 = names.map(function(name) {
+            return `${name} rocks!`;
+        });
+
+        // Arrow function
+        const nickNames2 = names.map((name, index) => {
+            return `${index + 1}. ${name} rocks!`;
+        });
+
+        // Shorthands
+        const nickNames3 = names.map((name) => {
+            return `${name} rocks!`;
+        });
+
+        const nickNames4 = names.map(name => {
+            return `${name} rocks!`;
+        });
+
+        const nickNames5 = names.map(name => `${name} rocks!` );
+
+    </script>
+</body>
+</html>
