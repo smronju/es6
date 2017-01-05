@@ -10,3 +10,4 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 5. ```function``` - [Javascript function](https://github.com/smronju/es6/blob/master/2%20-%20Arrow%20functions/function.html)
 ##### 6. ```function params``` - [Function default params](https://github.com/smronju/es6/blob/master/2%20-%20Arrow%20functions/default-params.html)
 ##### 7. ```arrow function``` - [Arrow function](https://github.com/smronju/es6/blob/master/2%20-%20Arrow%20functions/arrow-functions.html)
+##### 8. ```template string``` - [Template string](https://github.com/smronju/es6/blob/master/3%20-%20Template%20String/template-string.html)
