@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template String in Loop</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+    const names = [
+        'Ronju',
+        'Rinku',
+        'Shohel'
+    ];
+
+    const markup = `
+        <ul class="names">
+          ${names.map(name => `<li>${name}</li>`).join('')}
+        </ul>`;
+
+    document.body.innerHTML = markup;
+    </script>
+</body>
+</html>
