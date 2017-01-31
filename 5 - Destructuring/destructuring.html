@@ -8,7 +8,13 @@
 
   <script type="text/javascript">
     // Object Destructuring with variable renaming & default values
-    const { w: width = 400, h: height = 500 } = { w: 800 }
+    const { name: fullName = 'Ronju', bio: biography = 'Passionate developer who loves to code day & night!' } = { name: 'Rinku' };
+    console.log(fullName);
+
+    const options = { width: 300, color: 'black' };
+    const { width = 100, height = 100, color = 'blue', fontSize = 25} = options;
+
+    console.log(width, color);
   </script>
 </body>
 </html>
