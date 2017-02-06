@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Destructuring</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+  const person = {
+    name: 'Mohammad Ronju',
+    bio: 'Passionate developer who loves to code day & night!',
+    links: {
+      social: {
+        twitter: 'https://twitter.com/smronju',
+        facebook: 'https://facebook.com/smronju',
+      },
+      web: {
+        blog: 'https://smronju.me'
+      }
+    }
+  };
+
+  const { name, bio: biography } = person;
+  console.log(name, biography);
+
+  const { twitter, facebook } = person.links.social;
+  console.log(twitter, facebook);
+  </script>
+</body>
+</html>
