@@ -15,3 +15,4 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 10. ```more on template string ``` - [More on Template string](https://github.com/smronju/es6/blob/master/3%20-%20Template%20String/template-string-more.html)
 ##### 11. ```string methods``` - [String methods](https://github.com/smronju/es6/blob/master/4%20-%20String%20Methods/string-methods.html)
 ##### 12. ```Destructuring``` - [Destructuring - Intro](https://github.com/smronju/es6/blob/master/5%20-%20Destructuring/intro.html)
+##### 13. ```More destructuring``` - [More destructuring - More destructuring](https://github.com/smronju/es6/blob/master/5%20-%20Destructuring/destructuring.html)
