@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Destructuring in functions</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    function calculateBill({ total = 100, tip = 0.10, tax = 0.15 } = {}) {
+      return total + (tip * total) + (tax * total);
+    }
+
+    const bill = calculateBill({ tip: 0.20, total: 200 });
+    console.log(bill);
+  </script>
+</body>
+</html>
