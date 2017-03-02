@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Destructuring in functions</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const person = ['Mohammad Ronju', 'smronju@gmail.com', 'smronju.me'];
+    const [name, email, website] = person;
+    console.log(name, email, website);
+
+    const book = 'Javascript Mastery,Programming,ISBN: R0N92J10,Published on: 1st February 2017,some,thing,else,goes,here!';
+    const [title, category, isbn, date] = book.split(',');
+    console.log(title, category, isbn, date);
+
+    const team = ['Ronju', 'Rinku', 'Gazi', 'Shohel', 'Evan', 'Robin'];
+    const [captain, assistant, ...players] = team;
+    console.log(players);
+  </script>
+</body>
+</html>
