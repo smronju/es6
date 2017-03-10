@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const names = ['Ronju', 'Rinku', 'Gazi', 'Evan'];
+
+    // For loops
+    // for (let i = 0; i < names.length; i++) {
+    //   console.log(names[i]);
+    // }
+
+    // for (const index in names) {
+    //   console.log(names[index]);
+    // }
+
+    // for (const name of names) {
+    //   if(name === 'Ronju') {
+    //     continue;
+    //   }
+    //   console.log(name);
+    // }
+
+    // Foreach loop
+    names.forEach((name) => {
+      console.log(name);
+      if(name === 'Ronju') {
+        continue;
+      }
+    });
+
+  </script>
+</body>
+</html>
