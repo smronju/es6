@@ -18,4 +18,5 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 13. ```More on destructuring``` - [More on destructuring](https://github.com/smronju/es6/blob/master/5%20-%20Destructuring/destructuring.html)
 ##### 13. ```array destructuring``` - [Array destructuring](https://github.com/smronju/es6/blob/master/5%20-%20Destructuring/destructuring-arrays.html)
 ##### 13. ```function destructuring``` - [Destructuring in functions](https://github.com/smronju/es6/blob/master/5%20-%20Destructuring/destructuring-functions.html)
-##### 14. ```Iterables``` - [Iterables Intro](https://github.com/smronju/es6/blob/master/6%20-%20Iterables/iterables.html)
+##### 14. ```Iterables``` - [Iterables - Intro](https://github.com/smronju/es6/blob/master/6%20-%20Iterables/iterables.html)
+##### 15. ```Iterables``` - [Iterables - Object](https://github.com/smronju/es6/blob/master/6%20-%20Iterables/looping-objects.html)
