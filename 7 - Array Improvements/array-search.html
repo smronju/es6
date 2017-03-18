@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const peoples = [
+      {
+        id: 10000,
+        name: 'Mohammad Shoriful Islam Ronju',
+        age: 32,
+        gender: 'Male'
+      },
+      {
+        id: 10001,
+        name: 'Alamgir Hossain Rinku',
+        age: 28,
+        gender: 'Male'
+      },
+      {
+        id: 10002,
+        name: 'Shahidul Haque Gazi',
+        age: 35,
+        gender: 'Male'
+      }
+    ];
+    const id = 10000;
+    const person = peoples.find(person => person.id === id);
+
+    console.log(person);
+
+    const personIndex = peoples.findIndex(person => person.id === id);
+    console.log(personIndex);
+  </script>
+  
+</body>
+</html>
