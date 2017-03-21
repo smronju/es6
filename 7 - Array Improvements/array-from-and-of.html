@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro</title>
+</head>
+<body>
+  <div class="people">
+    <p>Ronju</p>
+    <p>Rinku</p>
+    <p>Gazi</p>
+  </div>
+
+  <script type="text/javascript">
+    const people = document.querySelectorAll('.people p');
+
+    const peopleArray = Array.from(people, person => {
+      // console.log(person);
+      return person.textContent;
+    });
+
+    console.log(peopleArray);
+
+    // const names = people.map(person => person.textContent);
+    // console.log(names);
+
+    function sumAll() {
+      const nums = Array.from(arguments);
+      return nums.reduce((prev, next) => prev + next, 0);
+    }
+
+    console.log(sumAll(2, 34, 8, 5, 23, 45, 90));
+
+    const ages = Array.of(12, 4, 13, 2, 14);
+    console.log(ages);
+  </script>
+</body>
+</html>
