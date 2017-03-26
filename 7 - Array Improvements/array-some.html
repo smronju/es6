@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const ages = [17, 15, 10, 19, 32, 45, 8];
+    // Any adult person from age group?
+    const adult = ages.some(age => age >= 18);
+    console.log(adult);
+
+    // Is everyone old enough to drink?
+    const allOldEnough = ages.every(age => age >= 18);
+    console.log(allOldEnough);
+  </script>
+</body>
+</html>
