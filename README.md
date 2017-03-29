@@ -22,3 +22,4 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 15. ```Iterables``` - [Iterables - Object](https://github.com/smronju/es6/blob/master/6%20-%20Iterables/looping-objects.html)
 ##### 16. ```Array Improvements``` - [Array - Search](https://github.com/smronju/es6/blob/master/7%20-%20Array%20Improvements/array-search.html)
 ##### 17. ```Array Improvements``` - [Array - Some](https://github.com/smronju/es6/blob/master/7%20-%20Array%20Improvements/array-some.html)
+##### 18. ```Array Improvements``` - [Array - from & of](https://github.com/smronju/es6/blob/master/7%20-%20Array%20Improvements/array-from-and-of.html)
