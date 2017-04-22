@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spread - Intro</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const family = ['Shaheb Ali', 'Riad Ali', 'Rony'];
+    const newFamilyMembers = ['Rakhi', 'Samiullah'];
+    family.push(...newFamilyMembers);
+    console.log(family);
+
+    const name = ['Mohammad', 'Ronju'];
+    
+    function greet(first, last) {
+      console.log(`Hi there ${first} ${last}`);
+    }
+    
+    greet(...name);
+  </script>
+</body>
+</html>
