@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spread - More</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const family = {
+      father: 'Shaheb Ali',
+      mother: 'Omela Begum',
+      childrens: ['Ronju', 'Rony', 'Shahnaj', 'Riad']
+    };
+    const newInFamily = ['Rakhi', 'Samiullah', ...family.childrens];
+    console.log(newInFamily);
+    
+    const posts = [
+      { id: 209384, title: 'Learn programming by practice!' },
+      { id: 523423, title: '30 Days 30 lessons' },
+      { id: 632429, title: 'Global warming effect!' },
+      { id: 192834, title: 'Whats new in Laravel' },
+    ];
+
+    const id = 632429;
+    const postIndex = posts.findIndex(post => post.id === id);
+    const newPosts = [...posts.slice(0, postIndex), ...posts.slice(postIndex + 1)];
+    console.log(newPosts);
+  </script>
+</body>
+</html>
