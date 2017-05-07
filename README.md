@@ -26,3 +26,4 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 19. ```Spread & Rest``` - [Spread & Rest - intro](https://github.com/smronju/es6/blob/master/8%20-%20Spread%20%26%20Rest/spread-intro.html)
 ##### 20. ```Spread & Rest``` - [Spread & Rest - in function](https://github.com/smronju/es6/blob/master/8%20-%20Spread%20%26%20Rest/spread-in-functions.html)
 ##### 21. ```Spread & Rest``` - [Spread & Rest - more](https://github.com/smronju/es6/blob/master/8%20-%20Spread%20%26%20Rest/spread-more.html)
+##### 22. ```Spread & Rest``` - [Spread & Rest - rest](https://github.com/smronju/es6/blob/master/8%20-%20Spread%20%26%20Rest/rest.html)
