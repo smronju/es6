@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spread - in functions</title>
+</head>
+<body>
+
+  <script type="text/javascript">
+    const promise = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        reject(Error('Err message isn\'t cool'));
+      }, 1000);
+    });
+
+    promise.then(data => {
+      console.log(data);
+    })
+    .catch(err => {
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
