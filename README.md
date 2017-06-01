@@ -28,3 +28,5 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 21. ```Spread & Rest``` - [Spread & Rest - more](https://github.com/smronju/es6/blob/master/8%20-%20Spread%20%26%20Rest/spread-more.html)
 ##### 22. ```Spread & Rest``` - [Spread & Rest - rest](https://github.com/smronju/es6/blob/master/8%20-%20Spread%20%26%20Rest/rest.html)
 ##### 23. ```Object literal upgrade``` - [Object literal - upgrade](https://github.com/smronju/es6/blob/master/9%20-%20Object%20literal/object-literal-upgrades.html)
+##### 24. ```Promises``` - [Promises - intro](https://github.com/smronju/es6/blob/master/10%20-%20Promises/promises-intro.html)
+##### 25. ```Promises``` - [Promises - creating promises](https://github.com/smronju/es6/blob/master/10%20-%20Promises/creating-promises.html)
