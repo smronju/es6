@@ -31,3 +31,4 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 24. ```Promises``` - [Promises - intro](https://github.com/smronju/es6/blob/master/10%20-%20Promises/promises-intro.html)
 ##### 25. ```Promises``` - [Promises - creating promises](https://github.com/smronju/es6/blob/master/10%20-%20Promises/creating-promises.html)
 ##### 26. ```Promises``` - [Promises - multiple promises](https://github.com/smronju/es6/blob/master/10%20-%20Promises/multiple-promises.html)
+##### 27. ```Promises``` - [Promises - chaining promises](https://github.com/smronju/es6/blob/master/10%20-%20Promises/chaining-promises.html)
