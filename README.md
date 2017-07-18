@@ -33,4 +33,5 @@ This repo is for learning purpose on what's new in Javascript aka ES6/ES7.
 ##### 26. ```Promises``` - [Promises - multiple promises](https://github.com/smronju/es6/blob/master/10%20-%20Promises/multiple-promises.html)
 ##### 27. ```Promises``` - [Promises - chaining promises](https://github.com/smronju/es6/blob/master/10%20-%20Promises/chaining-promises.html)
 ##### 28. ```Symbols``` - [Symbols - examples](https://github.com/smronju/es6/blob/master/11%20-%20Symbols/symbols.html)
+##### 29. ```Classes``` - [Classes - Array Extending](https://github.com/smronju/es6/blob/master/12%20-%20Classes/array-extending.html)
 
